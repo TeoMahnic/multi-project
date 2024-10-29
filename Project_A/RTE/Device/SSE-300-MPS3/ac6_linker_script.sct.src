@@ -32,7 +32,7 @@
 LR_ROM0 __ROM0_BASE __ROM0_SIZE  {
 
   ER_ROM0 __ROM0_BASE __ROM0_SIZE {
-#if defined(__STARTUP) && (__STARTUP > 0)
+#if defined(__STARTUP_EN) && (__STARTUP_EN > 0)
     *.o (RESET, +First)
     *(InRoot$$Sections)
 #endif

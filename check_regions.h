@@ -3,6 +3,7 @@
 
 
 #ifdef PROJECT_A
+#define __STARTUP_EN    __STARTUP_A
 #define __ROM0_BASE     __ROM_BASE_A
 #define __ROM0_SIZE     __ROM_SIZE_A
 #define __RAM0_BASE     __RAM_BASE_A
@@ -12,6 +13,7 @@
 #endif
 
 #ifdef PROJECT_B
+#define __STARTUP_EN    __STARTUP_B
 #define __ROM0_BASE     __ROM_BASE_B
 #define __ROM0_SIZE     __ROM_SIZE_B
 #define __RAM0_BASE     __RAM_BASE_B

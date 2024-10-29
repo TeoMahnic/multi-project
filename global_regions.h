@@ -15,7 +15,9 @@
 // -------------------------------
 // <h> Project A
 // -------------------------------
-#define __STARTUP 1
+// <q> Startup (A)
+// <i> Enable/Disable startup section in linker script
+#define __STARTUP_A 1
 
 // <h> ROM configuration (A)
 // =======================
@@ -54,6 +56,10 @@
 // -------------------------------
 // <h> Project B
 // -------------------------------
+// <q> Startup (B)
+// <i> Enable/Disable startup section in linker script
+#define __STARTUP_B 0
+
 // <h> ROM configuration (B)
 // =======================
 // <h> __ROM (B)
